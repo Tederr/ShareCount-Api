@@ -3,9 +3,36 @@ Content-Type: application/json
 
 {
     "name":"Dieguin",
-    "email":"dieguin@gmail.com"
+    "email":"dieguinMaluco@gmail.com"
 }
 
 ###
 
-GET http://localhost:3333/invites/diego123
+GET http://localhost:3333/invites/aa99a803-2336-4882-8b3b-ffab109d7aa0
+
+###
+
+GET http://localhost:3333/subscribers/aa99a803-2336-4882-8b3b-ffab109d7aa0/ranking/clicks
+
+###
+
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name":"Usuario indicado",
+    "email":"IndicadoUsuario@gmail.com",
+    "referrer":"aa99a803-2336-4882-8b3b-ffab109d7aa0" 
+}
+
+###
+
+GET http://localhost:3333/subscribers/aa99a803-2336-4882-8b3b-ffab109d7aa0/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/aa99a803-2336-4882-8b3b-ffab109d7aa0/ranking/count
+
+###
+
+GET http://localhost:3333/ranking
