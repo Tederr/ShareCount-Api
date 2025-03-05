@@ -36,3 +36,7 @@ GET http://localhost:3333/subscribers/aa99a803-2336-4882-8b3b-ffab109d7aa0/ranki
 ###
 
 GET http://localhost:3333/ranking
+
+###
+
+GET http://localhost:3333/login/IndicadoUsuario@gmail.com

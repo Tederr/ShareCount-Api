@@ -20,9 +20,7 @@ export async function subscribeToEvent({
 		.where(eq(subscriptions.email, email));
 
 	if (subscribers.length > 0) {
-		return {
-			subscribeId: subscribers[0].id,
-		};
+		return [];
 	}
 
 	const result = await db
