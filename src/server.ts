@@ -52,7 +52,8 @@ app.register(loginToEventRoute);
 app
 	.listen({
 		port: env.PORT || 3333,
+		host: '0.0.0.0',
 	})
 	.then(() => {
-		console.log('HTTP server running');
+		console.log(`Server running on http://localhost:${env.PORT}`);
 	});
